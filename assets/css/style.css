@@ -1,0 +1,117 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-color: #2a2a2a;
+  color: #d68100;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+
+th,
+td {
+  border: 1px solid #8f8f8f;
+  padding: 2px;
+  max-width: calc(100% / 7);
+}
+
+th {
+  background-color: #494949;
+}
+
+td {
+  height: 100px;
+  vertical-align: top;
+}
+
+h1 {
+  margin: 0.5rem;
+  text-align: center;
+}
+
+a,
+#last-month,
+#next-month,
+#last-day,
+#next-day {
+  color: #e4e006;
+  text-decoration: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+button {
+  color: #2a2a2a;
+  background-color: #e4e006;
+  cursor: pointer;
+  width: 100px;
+  padding: 0.5rem;
+}
+
+header {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+#delete-popover {
+  background-color: #494949;
+}
+
+#heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.past {
+  text-decoration: line-through;
+  color: slategray;
+}
+
+.event {
+  margin: 2px;
+  overflow: hidden;
+  text-wrap: nowrap;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 500px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+}
+
+#events-layout {
+  display: flex;
+  justify-content: space-around;
+}
+
+.importance-2 {
+  background-color: #e4e00638;
+}
+
+.importance-3 {
+  background-color: #d632003a;
+}

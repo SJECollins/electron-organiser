@@ -1,0 +1,20 @@
+{
+  "name": "electron-organiser",
+  "version": "1.0.0",
+  "description": "Just a quick Electron calendar app to get a feel for it",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Me",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^30.0.6",
+    "electron-packager": "^17.1.2"
+  },
+  "dependencies": {
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  }
+}
